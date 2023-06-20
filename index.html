@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap demo</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./vendor/glightbox/css/glightbox.min.css" />
+    <link rel="stylesheet" href="./vendor/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="shadow-sm">
+        <div class="container">
+          <div
+            class="nav-content d-flex flex-column flex-lg-row justify-content-between align-items-lg-center"
+          >
+            <div
+              class="logo-bar d-flex align-items-center justify-content-between"
+            >
+              <a href="#" class="navbar-brand">Ninestar</a>
+              <span class="d-lg-none fas fa-bars fa-lg"></span>
+            </div>
+            <ul
+              class="nav-item d-lg-flex justify-content-between gap-3 align-items-center p-0 m-0"
+            >
+              <li><a class="nav-link" href="#index">Home</a></li>
+              <li><a class="nav-link" href="#about">About</a></li>
+              <li><a class="nav-link" href="#service">Service</a></li>
+              <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+              <li><a class="nav-link" href="#team">Team</a></li>
+              <!-- <li class="dropdown">
+                <a class="nav-link">Dropdown</a>
+                <ul class="list-group px-2">
+                  <li><a class="dropdown-item" href="#">Link1</a></li>
+                  <li><a class="dropdown-item" href="#">Link1</a></li>
+                  <li><a class="dropdown-item" href="#">Link1</a></li>
+                </ul>
+              </li> -->
+              <li><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+            <button
+              class="contact-btn px-4 py-2 rounded-pill d-none d-lg-block"
+            >
+              Contact
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- section_banner -->
+    <section class="banner" id="index">
+      <div class="container">
+        <div class="row justify-content-center align-items-center gy-3 gy-lg-0">
+          <div class="col-12 col-lg-6 order-2 order-lg-1">
+            <div class="banner_content">
+              <h1 class="text-center text-lg-start">
+                Bettter digital experience with Ninestars
+              </h1>
+              <h5 class="text-center text-lg-start">
+                We are team of talented designers making websites with Bootstrap
+              </h5>
+              <div class="text-center text-lg-start">
+                <button class="btn text-white rounded-0">Get Started</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 order-1 order-lg-2">
+            <div class="bannner_img">
+              <img
+                src="./assets/hero-img.svg"
+                class="img-fluid"
+                alt="banner-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section banner2 -->
+    <section id="about" class="about py-2 py-md-3 py-lg-5">
+      <div class="container">
+        <div
+          class="row align-items-center justify-content-between gy-3 gy-lg-0"
+        >
+          <div class="col-12 col-lg-5">
+            <img src="./assets/about-img.svg" class="img-fluid" alt="img" />
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="about_content">
+              <h3 class="text-center text-lg-start">
+                Voluptatem dignissimos provident quasi
+              </h3>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis
+                aute irure dolor in reprehenderit
+              </p>
+              <div class="about_box row py-2">
+                <div class="single_box col-12 col-sm-6">
+                  <span><i class="fas fa-book fa-3x"></i></span>
+                  <h6 class="mt-3">Corporis voluptates sit</h6>
+                  <p>
+                    Consequuntur sunt aut quasi enim aliquam quae harum pariatur
+                    laboris nisi ut aliquip
+                  </p>
+                </div>
+                <div class="single_box col-12 col-sm-6">
+                  <span><i class="fas fa-book fa-3x"></i></span>
+                  <h6 class="mt-3">Corporis voluptates sit</h6>
+                  <p>
+                    Consequuntur sunt aut quasi enim aliquam quae harum pariatur
+                    laboris nisi ut aliquip
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section service -->
+    <section id="service" class="service py-3 py-md-4 py-lg-5">
+      <div class="section_title text-center mb-4">
+        <h5>Service</h5>
+        <h3 class="">Check out the great services we offer</h3>
+      </div>
+      <div class="container py-3">
+        <div class="row gy-3 gy-md-4">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="service_box text-center rounded-3 shadow py-3 px-1">
+              <span class="mb-3"><i class="fas fa-globe fa-3x mb-3"></i></span>
+              <h6 class="">Lorem Ipsum</h6>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi sint occaecati cupiditat
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="service_box text-center rounded-3 shadow py-3 px-1">
+              <span class="mb-3"><i class="fas fa-globe fa-3x mb-3"></i></span>
+              <h6 class="">Lorem Ipsum</h6>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi sint occaecati cupiditat
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="service_box text-center rounded-3 shadow py-3 px-1">
+              <span class="mb-3"><i class="fas fa-globe fa-3x mb-3"></i></span>
+              <h6 class="">Lorem Ipsum</h6>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi sint occaecati cupiditat
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="service_box text-center rounded-3 shadow py-3 px-1">
+              <span class="mb-3"><i class="fas fa-globe fa-3x mb-3"></i></span>
+              <h6 class="">Lorem Ipsum</h6>
+              <p>
+                Voluptatum deleniti atque corrupti quos dolores et quas
+                molestias excepturi sint occaecati cupiditat
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section_portfolio -->
+    <section class="portfolio py-2 py-md-4 py-lg-5" id="portfolio">
+      <div class="section_title text-center mb-3 mb-md-4">
+        <h5>Portfolio</h5>
+        <h3>Check out our beautifull portfolio</h3>
+      </div>
+      <div class="container">
+        <div
+          class="btn_containerr mb-3 mb-md-4 d-flex justify-content-center align-items-center gap-3"
+        >
+          <button class="filter-btn btn btn-sm active" data-filter="all">
+            All
+          </button>
+          <button class="filter-btn btn btn-sm" data-filter="app">App</button>
+          <button class="filter-btn btn btn-sm" data-filter="wifi">wifi</button>
+          <button class="filter-btn btn btn-sm" data-filter="web">Web</button>
+        </div>
+        <div class="row card_container gy-3 gy-md-4">
+          <div class="col-12 col-md-6 col-lg-4 card_wrapper app">
+            <div class="">
+              <img
+                src="./assets/portfolio/portfolio-1.jpg"
+                class="img-fluid"
+                alt="img"
+              />
+              <div class="card_links">
+                <a
+                  href="./assets/portfolio/portfolio-1.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                  title="App 1"
+                  ><i class="fas fa-link fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 card_wrapper wifi">
+            <div class="">
+              <img
+                src="./assets/portfolio/portfolio-2.jpg"
+                class="img-fluid"
+                alt="img"
+              />
+              <div class="card_links">
+                <a
+                  href="./assets/portfolio/portfolio-2.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                  title="Wifi 1"
+                  ><i class="fas fa-link fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 card_wrapper app">
+            <div class="">
+              <img
+                src="./assets/portfolio/portfolio-3.jpg"
+                class="img-fluid"
+                alt="img"
+              />
+              <div class="card_links">
+                <a
+                  href="./assets/portfolio/portfolio-3.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                  title="App 2"
+                  ><i class="fas fa-link fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 card_wrapper wifi">
+            <div class="">
+              <img
+                src="./assets/portfolio/portfolio-4.jpg"
+                class="img-fluid"
+                alt="img"
+              />
+              <div class="card_links">
+                <a
+                  href="./assets/portfolio/portfolio-4.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                  title="Wifi 2"
+                  ><i class="fas fa-link fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 card_wrapper web">
+            <div class="">
+              <img
+                src="./assets/portfolio/portfolio-5.jpg"
+                class="img-fluid"
+                alt="img"
+              />
+              <div class="card_links">
+                <a
+                  href="./assets/portfolio/portfolio-5.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                  title="Web 2"
+                  ><i class="fas fa-link fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-md-6 col-lg-4 card_wrapper web">
+            <div class="">
+              <img
+                src="./assets/portfolio/portfolio-6.jpg"
+                class="img-fluid"
+                alt="img"
+              />
+              <div class="card_links">
+                <a
+                  href="./assets/portfolio/portfolio-6.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                  title="Web 1"
+                  ><i class="fas fa-link fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 card_wrapper wifi">
+            <div class="">
+              <img
+                src="./assets/portfolio/portfolio-7.jpg"
+                class="img-fluid"
+                alt="img"
+              />
+              <div class="card_links">
+                <a
+                  href="./assets/portfolio/portfolio-7.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                  title="Wifi 3"
+                  ><i class="fas fa-link fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 card_wrapper web">
+            <div class="">
+              <img
+                src="./assets/portfolio/portfolio-8.jpg"
+                class="img-fluid"
+                alt="img"
+              />
+              <div class="card_links">
+                <a
+                  href="./assets/portfolio/portfolio-8.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                  title="Web 3"
+                  ><i class="fas fa-link fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 card_wrapper app">
+            <div class="">
+              <img
+                src="./assets/portfolio/portfolio-9.jpg"
+                class="img-fluid"
+                alt="img"
+              />
+              <div class="card_links">
+                <a
+                  href="./assets/portfolio/portfolio-9.jpg"
+                  data-gallery="portfolioGallery"
+                  class="portfolio-lightbox"
+                  title="App 3"
+                  ><i class="fas fa-link fa-lg"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- section_FAQ -->
+    <section id="faq" class="FAQ py-3 py-md-4 py-lg-5">
+      <div class="section_title text-center">
+        <h5>F.A.Q</h5>
+        <h3>Frequently Asked Questions</h3>
+      </div>
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-12 col-md-10 col-lg-8">
+            <div class="accordion_item">
+              <div class="single_accordion">
+                <button class="accordion">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Beatae, eos!?
+                </button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+              </div>
+              <div class="single_accordion">
+                <button class="accordion">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Beatae, eos!?
+                </button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+              </div>
+              <div class="single_accordion">
+                <button class="accordion">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Beatae, eos!?
+                </button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+              </div>
+              <div class="single_accordion">
+                <button class="accordion">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Beatae, eos!?
+                </button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+              </div>
+              <div class="single_accordion">
+                <button class="accordion">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Beatae, eos!?
+                </button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+              </div>
+              <div class="single_accordion">
+                <button class="accordion">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Beatae, eos!?
+                </button>
+                <div class="panel">
+                  <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                    sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section_Team -->
+    <section id="team" class="Team py-2 py-md-3 py-lg-5">
+      <div class="section_title text-center mb-3">
+        <h5>Team</h5>
+        <h3>Our team is always here to help</h3>
+      </div>
+      <div class="container py-5">
+        <div class="row gy-3 gy-lg-0">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_person">
+              <img
+                src="./assets/team/team-1.jpg"
+                class="img-fluid"
+                alt="client-1"
+              />
+              <div class="social_icon">
+                <a href="#" class="  ">
+                  <i class="fab fa-facebook rounded-circle"> </i>
+                </a>
+                <a href="#" class="  ">
+                  <i class="fab fa-twitter rounded-circle"> </i>
+                </a>
+                <a href="#" class="  ">
+                  <i class="fab fa-linkedin rounded-circle"> </i>
+                </a>
+                <a href="#" class="  ">
+                  <i class="fab fa-instagram rounded-circle"></i>
+                </a>
+              </div>
+              <div
+                class="personanl_info d-flex justify-content-center align-items-end"
+              >
+                <div class="info">
+                  <h6>Walter White</h6>
+                  <p><i>Chief Executive Officer</i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_person">
+              <img
+                src="./assets/team/team-2.jpg"
+                class="img-fluid"
+                alt="client-1"
+              />
+              <div class="social_icon">
+                <a href="#" class="  ">
+                  <i class="fab fa-facebook rounded-circle"> </i>
+                </a>
+                <a href="#" class="  ">
+                  <i class="fab fa-twitter rounded-circle"> </i>
+                </a>
+                <a href="#" class="  ">
+                  <i class="fab fa-linkedin rounded-circle"> </i>
+                </a>
+                <a href="#" class="  ">
+                  <i class="fab fa-instagram rounded-circle"></i>
+                </a>
+              </div>
+              <div
+                class="personanl_info d-flex justify-content-center align-items-end"
+              >
+                <div class="info">
+                  <h6>Walter White</h6>
+                  <p><i>Chief Executive Officer</i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_person">
+              <img
+                src="./assets/team/team-4.jpg"
+                class="img-fluid"
+                alt="client-1"
+              />
+              <div class="social_icon">
+                <a href="#" class="  ">
+                  <i class="fab fa-facebook rounded-circle"> </i>
+                </a>
+                <a href="#" class="  ">
+                  <i class="fab fa-twitter rounded-circle"> </i>
+                </a>
+                <a href="#" class="  ">
+                  <i class="fab fa-linkedin rounded-circle"> </i>
+                </a>
+                <a href="#" class="  ">
+                  <i class="fab fa-instagram rounded-circle"></i>
+                </a>
+              </div>
+              <div
+                class="personanl_info d-flex justify-content-center align-items-end"
+              >
+                <div class="info">
+                  <h6>Walter White</h6>
+                  <p><i>Chief Executive Officer</i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_person">
+              <img
+                src="./assets/team/team-1.jpg"
+                class="img-fluid"
+                alt="client-1"
+              />
+              <div class="social_icon">
+                <a href="#" class="  ">
+                  <i class="fab fa-facebook rounded-circle"> </i>
+                </a>
+                <a href="#" class="  ">
+                  <i class="fab fa-twitter rounded-circle"> </i>
+                </a>
+                <a href="#" class="  ">
+                  <i class="fab fa-linkedin rounded-circle"> </i>
+                </a>
+                <a href="#" class="  ">
+                  <i class="fab fa-instagram rounded-circle"></i>
+                </a>
+              </div>
+              <div
+                class="personanl_info d-flex justify-content-center align-items-end"
+              >
+                <div class="info">
+                  <h6>Walter White</h6>
+                  <p><i>Chief Executive Officer</i></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Section_clients -->
+    <section id="clients" class="clients py-2 py-md-3 py-lg-5">
+      <div class="section_title mb-2 mb-lg-3 text-center">
+        <h5>Clients</h5>
+        <h3>They trusted us</h3>
+      </div>
+      <div class="container">
+        <div class="clients-slider swiper">
+          <div class="swiper-wrapper py-2 py-md-3 py-lg-4">
+            <div class="swiper-slide">
+              <img
+                src="./assets//clients/client-1.png"
+                alt="img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets//clients/client-2.png"
+                alt="img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets//clients/client-3.png"
+                alt="img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets//clients/client-4.png"
+                alt="img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets//clients/client-5.png"
+                alt="img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets//clients/client-6.png"
+                alt="img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets//clients/client-7.png"
+                alt="img"
+                class="img-fluid"
+              />
+            </div>
+            <div class="swiper-slide">
+              <img
+                src="./assets//clients/client-8.png"
+                alt="img"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+          <div class="swiper-pagination text-warnnig"></div>
+        </div>
+      </div>
+    </section>
+    <!-- section Contacts -->
+    <section id="contact" class="contact py-3 py-md-4 py-lg-5">
+      <div class="section_title mb-3 mb-lg-4 text-center">
+        <h5>Contact Us</h5>
+        <h3>Contact us the get started</h3>
+      </div>
+      <div class="container py-3 py-md-4 py-lg-5">
+        <div class="row justify-content-between gy-4 gy-lg-0">
+          <div class="col-12 col-lg-5">
+            <ul class="address list-group shadow">
+              <li class="d-flex gap-3">
+                <div>
+                  <span class="rounded-circle">
+                    <i class="fas fa-location"></i>
+                  </span>
+                </div>
+                <div>
+                  <h6 class=" ">Location</h6>
+                  <p>A108 Adam Street, New York, NY 535022</p>
+                </div>
+              </li>
+              <li class="d-flex gap-3">
+                <div>
+                  <span class="rounded-circle">
+                    <i class="fas fa-message"></i>
+                  </span>
+                </div>
+                <div>
+                  <h6 class=" ">Email</h6>
+                  <p>info@example.com</p>
+                </div>
+              </li>
+              <li class="d-flex gap-3">
+                <div>
+                  <span class="rounded-circle">
+                    <i class="fas fa-phone"></i>
+                  </span>
+                </div>
+                <div>
+                  <h6 class=" ">Call</h6>
+                  <p>+1 5589 55488 55s</p>
+                </div>
+              </li>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
+                frameborder="0"
+                style="border: 0; width: 100%; height: 290px"
+                allowfullscreen
+              ></iframe>
+            </ul>
+          </div>
+          <div class="col-12 col-lg-7">
+            <form class="shadow">
+              <div class="input_div row">
+                <div class="single_input col-12 col-lg-6">
+                  <label class="mb-1" for="name">Name</label>
+                  <input
+                    type="name"
+                    placeholder="Name"
+                    id="name"
+                    class="form-control"
+                    name="name"
+                  />
+                </div>
+                <div class="single_input col-12 col-lg-6">
+                  <label class="mb-1" for="eamil">Email</label>
+                  <input
+                    type="email"
+                    placeholder="Email"
+                    id="email"
+                    class="form-control"
+                    name="email"
+                  />
+                </div>
+              </div>
+              <div class="single_input">
+                <label class="mb-1" for="name">Subject</label>
+                <input
+                  type="subject"
+                  placeholder="Subject"
+                  id="subject"
+                  class="form-control"
+                  name="subject"
+                />
+              </div>
+              <div class="single_input">
+                <label class="mb-1" for="name">Message</label>
+                <textarea
+                  name="Message"
+                  class="w-100 border ps-2"
+                  id=""
+                  rows="8"
+                  placeholder="Message"
+                ></textarea>
+              </div>
+              <div class="sub_btn text-center mt-3">
+                <button class="btn btn-lg">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- section_newsleter -->
+    <section id="news" class="news py-3 py-md-4 py-lg-5">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="seciton_title text-center col-12 col-md-8 col-lg-6">
+            <h4>Join Our Newsletter</h4>
+            <p>
+              Tamen quem nulla quae legam multos aute sint culpa legam noster
+              magna
+            </p>
+            <div class="input_news d-flex align-items-center mt-3">
+              <input type="text" class="form-control" id="news" />
+              <button class="btn">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer_setion -->
+    <footer class="py-3 py-md-4 py-lg-5 pb-lg-0">
+      <div class="container">
+        <div class="row gy-3 gy-lg-0">
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_col">
+              <a href="#" class="bottom_logo mb-2">NineSatar</a>
+              <p class="mb-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus ad sed quis, fugit tempora autem?
+              </p>
+              <p class="m-0"><strong>Phone :</strong>+1 5589 55488 55</p>
+              <p class="m-0"><strong>Email :</strong>info@example.com</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_col">
+              <h6>Useful Links</h6>
+              <ul class="list-group">
+                <li><a href="#Home" class="bottom-link">Home</a></li>
+                <li><a href="#about" class="bottom-link">About</a></li>
+                <li><a href="#service" class="bottom-link">Service</a></li>
+                <li><a href="#portfolio" class="bottom-link">Portfolio</a></li>
+                <li><a href="#team" class="bottom-link">Team</a></li>
+                <li><a href="#contact" class="bottom-link">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_col">
+              <h6>Useful Links</h6>
+              <ul class="list-group">
+                <li><a href="#Home" class="bottom-link">Home</a></li>
+                <li><a href="#about" class="bottom-link">About</a></li>
+                <li><a href="#service" class="bottom-link">Service</a></li>
+                <li><a href="#portfolio" class="bottom-link">Portfolio</a></li>
+                <li><a href="#team" class="bottom-link">Team</a></li>
+                <li><a href="#contact" class="bottom-link">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-lg-3">
+            <div class="single_col">
+              <h6>Our Social Networks</h6>
+              <p class="mb-3">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Doloribus ad sed quis, fugit tempora autem?
+              </p>
+              <div class="social_links">
+                <a href="#" class="  ">
+                  <i class="fab fa-facebook rounded-circle"> </i>
+                </a>
+                <a href="#" class="  ">
+                  <i class="fab fa-twitter rounded-circle"> </i>
+                </a>
+                <a href="#" class="  ">
+                  <i class="fab fa-linkedin rounded-circle"> </i>
+                </a>
+                <a href="#" class="  ">
+                  <i class="fab fa-instagram rounded-circle"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copy border-top mt-3 align-items-center">
+        <p class="text-center pt-3">&copy; All right reserved Developer</p>
+      </div>
+    </footer>
+    <div class="back-to-top position-fixed bottom-0 end-0 mb-5 me-3">
+      <a href="#" class="rounded-circle back-to"
+        ><i class="fas fa-arrow-up"></i
+      ></a>
+    </div>
+    <script src="./vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="./vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="./vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
+s
